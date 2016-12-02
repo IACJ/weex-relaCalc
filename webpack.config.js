@@ -5,7 +5,7 @@ var path = require('path')
 
 module.exports = {
   entry: {
-    main: path.join(__dirname, 'src', 'weex-bootstrap.we?entry=true')
+    main: path.join(__dirname, 'src', 'rela-calc.we?entry=true')
   },
   output: {
     path: 'dist',
