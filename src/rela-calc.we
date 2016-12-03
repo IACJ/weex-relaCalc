@@ -329,6 +329,7 @@ methods: {
       } else {
         this.result = res;
       }
+      sets.unshift( this.result.trim() );
     }
   },
   calculate: function() {
